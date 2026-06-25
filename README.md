@@ -1,4 +1,4 @@
-# Enterprise Knowledge Base Chatbot (RAG Architecture on AWS)
+# 🤖 Enterprise Knowledge Base Chatbot (RAG Architecture on AWS)
 
 An enterprise-grade Retrieval-Augmented Generation (RAG) chatbot designed to securely query internal corporate compliance, IT, and HR documentation. This system mitigates LLM hallucinations by restricting response generation strictly to verified data sources with exact footnote citations.
 
