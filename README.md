@@ -39,5 +39,6 @@ An enterprise-grade Retrieval-Augmented Generation (RAG) chatbot designed to sec
 Below is a demonstration of the functional RAG pipeline successfully answering compliance questions using only the ingested company policies:
 
 ![Console Chat Verification](chatbot-demo.png)
+![Console Chat Verification](chatbot-demo2.png)
 
 *The system successfully pulled information from `hr_remote_work_policy.txt` and `benefits_summary_2026.txt` while maintaining perfect source tracking.*
