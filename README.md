@@ -49,4 +49,4 @@ PDF File Verification Output:
 
 ![Console Chat Verification](chatbot-demo3.png)
 
-*The system successfully pulled information from `hr_remote_work_policy.txt` and `benefits_summary_2026.txt` while maintaining perfect source tracking.*
+*The system successfully pulled information from `hr_remote_work_policy.txt` and `benefits_summary_2026.txt` and `travel_expense_policy.pdf` while maintaining perfect source tracking.*
