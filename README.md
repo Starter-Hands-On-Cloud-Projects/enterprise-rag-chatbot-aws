@@ -12,12 +12,16 @@ An enterprise-grade Retrieval-Augmented Generation (RAG) chatbot designed to sec
 3. **Vector Storage:** Embeddings are indexed and stored inside a high-performance **Amazon OpenSearch Serverless** collection.
 4. **Retrieval & Inference:** Users query the system via the orchestration layer. The system performs a hybrid semantic/keyword search against OpenSearch, pulls the relevant document chunks, and passes them as context to **Anthropic Claude 3** to synthesize a precise, accurate answer.
 
+![S3](S3_Bucket.png)
+
 ---
 
 ## 🛠️ Tech Stack & Design Decisions
 
 ### **Amazon Bedrock Knowledge Base**
 * **Why:** It abstracts the complex operational overhead of manually orchestrating LangChain pipelines, data syncs, and chunking strategies, providing a production-ready managed infrastructure.
+
+![KB](Amazon Bedrock Knowledge Base.png)
 
 ### **Amazon OpenSearch Serverless**
 * **Why:** Eliminates the need to provision, scale, or patch dedicated vector database clusters. It scales up or down automatically based on query volume, keeping operational costs highly efficient.
