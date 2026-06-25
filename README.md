@@ -21,7 +21,7 @@ An enterprise-grade Retrieval-Augmented Generation (RAG) chatbot designed to sec
 ### **Amazon Bedrock Knowledge Base**
 * **Why:** It abstracts the complex operational overhead of manually orchestrating LangChain pipelines, data syncs, and chunking strategies, providing a production-ready managed infrastructure.
 
-![KB](Amazon Bedrock Knowledge Base.png)
+![KB](Amazon_Bedrock_Knowledge_Base.png)
 
 ### **Amazon OpenSearch Serverless**
 * **Why:** Eliminates the need to provision, scale, or patch dedicated vector database clusters. It scales up or down automatically based on query volume, keeping operational costs highly efficient.
